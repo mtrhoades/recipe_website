@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Luckiest+Guy&display=swap');
 body {
-    background-color: teal;
+    background-color: #F7B32B;
+    font-family: 'Luckiest Guy', cursive;
 }
 .header {
     text-align: center;
@@ -9,7 +11,7 @@ body {
 }
 .nav_bar a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 .nav_bar li {
     list-style-type: none;
@@ -26,8 +28,10 @@ body {
     border: solid 1px black;
     text-align: center;
 }
+
 .quote {
     text-align: center;
+    color: whitesmoke;
 }
 .blocks_container {
     display: inline-flex;
@@ -59,6 +63,9 @@ body {
     height: 300px;
     border: solid 1px black;
     text-align: center;
+}
+.pantry_block img {
+    width: 50%;
 }
 footer {
     text-align: center;
